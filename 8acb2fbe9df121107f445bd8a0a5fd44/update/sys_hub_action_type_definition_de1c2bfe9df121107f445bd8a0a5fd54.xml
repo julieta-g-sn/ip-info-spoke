@@ -14,7 +14,7 @@
         <description>Get geographic data from a public IP address.</description>
         <ih_action>false</ih_action>
         <internal_name>get_geographic_data_from_ip</internal_name>
-        <label_cache>[{"name":"{{action.ip_address}}","label":"action➛IP address","type":"action","ref":"","reference_display":"","base_type":"ip_address","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[f7031289-274d-4755-8d0d-9e5c8404f1f3].response_body}}","label":"step➛Call IPInfo REST API➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[f7031289-274d-4755-8d0d-9e5c8404f1f3].status_code}}","label":"step➛Call IPInfo REST API➛Status Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[0e3a97cb-3667-4da8-9a70-02f45c85e70c].variable}}","label":"step➛Parse Returned Data➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[0e3a97cb-3667-4da8-9a70-02f45c85e70c].hostname}}","label":"step➛Parse Returned Data➛hostname","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"{{step[0e3a97cb-3667-4da8-9a70-02f45c85e70c].hostname1}}","label":"step➛Parse Returned Data➛hostname","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"{{step[0e3a97cb-3667-4da8-9a70-02f45c85e70c]._}}","label":"step➛Parse Returned Data➛hostname","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"{{step[0e3a97cb-3667-4da8-9a70-02f45c85e70c].region}}","label":"step➛Parse Returned Data➛region","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"{{step[0e3a97cb-3667-4da8-9a70-02f45c85e70c].variable2}}","label":"step➛Parse Returned Data➛variable2","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[0e3a97cb-3667-4da8-9a70-02f45c85e70c].variable3}}","label":"step➛Parse Returned Data➛variable3","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[0e3a97cb-3667-4da8-9a70-02f45c85e70c].latitude}}","label":"step➛Parse Returned Data➛latitude","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"{{step[0e3a97cb-3667-4da8-9a70-02f45c85e70c].country4}}","label":"step➛Parse Returned Data➛country","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"{{step[0e3a97cb-3667-4da8-9a70-02f45c85e70c].longitude}}","label":"step➛Parse Returned Data➛longitude","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"{{step[0e3a97cb-3667-4da8-9a70-02f45c85e70c].city}}","label":"step➛Parse Returned Data➛city","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":""}}]</label_cache>
+        <label_cache>[{"name":"{{action.ip_address}}","label":"action➛IP address","type":"action","ref":"","reference_display":"","base_type":"ip_address","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[f7031289-274d-4755-8d0d-9e5c8404f1f3].response_body}}","label":"step➛Call IPInfo REST API➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[f7031289-274d-4755-8d0d-9e5c8404f1f3].status_code}}","label":"step➛Call IPInfo REST API➛Status Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[0e3a97cb-3667-4da8-9a70-02f45c85e70c].variable}}","label":"step➛Parse Returned Data➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[0e3a97cb-3667-4da8-9a70-02f45c85e70c].hostname}}","label":"step➛Parse Returned Data➛hostname","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[0e3a97cb-3667-4da8-9a70-02f45c85e70c].hostname1}}","label":"step➛Parse Returned Data➛hostname","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[0e3a97cb-3667-4da8-9a70-02f45c85e70c]._}}","label":"step➛Parse Returned Data➛hostname","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[0e3a97cb-3667-4da8-9a70-02f45c85e70c].region}}","label":"step➛Parse Returned Data➛region","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[0e3a97cb-3667-4da8-9a70-02f45c85e70c].variable2}}","label":"step➛Parse Returned Data➛variable2","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[0e3a97cb-3667-4da8-9a70-02f45c85e70c].variable3}}","label":"step➛Parse Returned Data➛variable3","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[0e3a97cb-3667-4da8-9a70-02f45c85e70c].latitude}}","label":"step➛Parse Returned Data➛latitude","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[0e3a97cb-3667-4da8-9a70-02f45c85e70c].country4}}","label":"step➛Parse Returned Data➛country","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"a17a8a01-fc87-4f97-8fed-f4dd16505c51"}},{"name":"{{step[0e3a97cb-3667-4da8-9a70-02f45c85e70c].longitude}}","label":"step➛Parse Returned Data➛longitude","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[0e3a97cb-3667-4da8-9a70-02f45c85e70c].city}}","label":"step➛Parse Returned Data➛city","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[0e3a97cb-3667-4da8-9a70-02f45c85e70c].country}}","label":"step➛Parse Returned Data➛country","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":""}}]</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
         <name>Get Geographic Data from IP</name>
@@ -28,7 +28,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>de1c2bfe9df121107f445bd8a0a5fd54</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name>Get Geographic Data from IP</sys_name>
         <sys_overrides/>
         <sys_package display_value="IPInfo Spoke" source="x_snc_ipinfo_spoke">8acb2fbe9df121107f445bd8a0a5fd44</sys_package>
@@ -36,7 +36,7 @@
         <sys_scope display_value="IPInfo Spoke">8acb2fbe9df121107f445bd8a0a5fd44</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_de1c2bfe9df121107f445bd8a0a5fd54</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-29 18:58:02</sys_updated_on>
+        <sys_updated_on>2023-03-29 19:26:20</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -89,11 +89,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-03-29 18:58:02</sys_created_on>
         <sys_id>7017b3ba9d3521107f445bd8a0a5fd20</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-29 18:58:02</sys_updated_on>
+        <sys_updated_on>2023-03-29 19:26:20</sys_updated_on>
         <table>var__m_sys_hub_action_output_de1c2bfe9df121107f445bd8a0a5fd54</table>
-        <value>{{step[0e3a97cb-3667-4da8-9a70-02f45c85e70c].country4}}</value>
+        <value>{{step[0e3a97cb-3667-4da8-9a70-02f45c85e70c].country}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>hostname</field>
@@ -459,10 +459,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-03-29 18:52:07</sys_created_on>
         <sys_id>cab57f3a9d3521107f445bd8a0a5fd31</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="IPInfo Spoke">8acb2fbe9df121107f445bd8a0a5fd44</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-29 18:52:08</sys_updated_on>
+        <sys_updated_on>2023-03-29 19:26:07</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=cab57f3a9d3521107f445bd8a0a5fd31"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -473,9 +473,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-03-29 18:52:08</sys_created_on>
         <sys_id>52b57f3a9d3521107f445bd8a0a5fd5c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-29 18:52:08</sys_updated_on>
+        <sys_updated_on>2023-03-29 19:26:07</sys_updated_on>
         <value>(function execute(inputs, outputs) {
     // Only parse the response body if the status code is 200  
       if (inputs.status_code == '200'){
@@ -725,7 +725,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=cab57f3a9d3521107f445bd8a0a5fd31^sys_idNOT IN52b57f3a9d3521107f445bd8a0a5fd48,5eb57f3a9d3521107f445bd8a0a5fd42,5eb57f3a9d3521107f445bd8a0a5fd4f,dab57f3a9d3521107f445bd8a0a5fd53,deb57f3a9d3521107f445bd8a0a5fd4b,e41773ba9d3521107f445bd8a0a5fded"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=cab57f3a9d3521107f445bd8a0a5fd31^sys_idNOT IN52b57f3a9d3521107f445bd8a0a5fd48,5eb57f3a9d3521107f445bd8a0a5fd42,5eb57f3a9d3521107f445bd8a0a5fd4f,ad7df736643121107f44c8658dc061ab,dab57f3a9d3521107f445bd8a0a5fd53,e41773ba9d3521107f445bd8a0a5fded"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -932,7 +932,7 @@
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_output_cab57f3a9d3521107f445bd8a0a5fd31</name>
         <next_element/>
-        <order>4</order>
+        <order>3</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -950,6 +950,87 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-03-29 18:52:07</sys_created_on>
         <sys_id>5eb57f3a9d3521107f445bd8a0a5fd4f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="IPInfo Spoke">8acb2fbe9df121107f445bd8a0a5fd44</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-29 19:25:39</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=ad2b2a73-b570-44f7-9cbd-04a4777132e7</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>country</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>country</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Parse Returned Data">cab57f3a9d3521107f445bd8a0a5fd31</model>
+        <model_id>cab57f3a9d3521107f445bd8a0a5fd31</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_cab57f3a9d3521107f445bd8a0a5fd31</name>
+        <next_element/>
+        <order>6</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-29 19:25:56</sys_created_on>
+        <sys_id>ad7df736643121107f44c8658dc061ab</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
@@ -957,7 +1038,7 @@
         <sys_scope display_value="IPInfo Spoke">8acb2fbe9df121107f445bd8a0a5fd44</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-29 18:52:07</sys_updated_on>
+        <sys_updated_on>2023-03-29 19:25:56</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1013,7 +1094,7 @@
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_output_cab57f3a9d3521107f445bd8a0a5fd31</name>
         <next_element/>
-        <order>5</order>
+        <order>4</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -1031,95 +1112,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-03-29 18:52:07</sys_created_on>
         <sys_id>dab57f3a9d3521107f445bd8a0a5fd53</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="IPInfo Spoke">8acb2fbe9df121107f445bd8a0a5fd44</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-29 18:52:07</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_step_ext_output>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=a17a8a01-fc87-4f97-8fed-f4dd16505c51</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>country4</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label>country</label>
-        <mandatory>false</mandatory>
-        <max_length>8000</max_length>
-        <model display_value="Parse Returned Data">cab57f3a9d3521107f445bd8a0a5fd31</model>
-        <model_id>cab57f3a9d3521107f445bd8a0a5fd31</model_id>
-        <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_output_cab57f3a9d3521107f445bd8a0a5fd31</name>
-        <next_element/>
-        <order>3</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-03-29 18:52:07</sys_created_on>
-        <sys_id>deb57f3a9d3521107f445bd8a0a5fd4b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="IPInfo Spoke">8acb2fbe9df121107f445bd8a0a5fd44</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-29 18:52:07</sys_updated_on>
+        <sys_updated_on>2023-03-29 19:25:39</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1175,7 +1175,7 @@
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_output_cab57f3a9d3521107f445bd8a0a5fd31</name>
         <next_element/>
-        <order>6</order>
+        <order>5</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -1193,14 +1193,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-03-29 18:58:01</sys_created_on>
         <sys_id>e41773ba9d3521107f445bd8a0a5fded</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="IPInfo Spoke">8acb2fbe9df121107f445bd8a0a5fd44</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-29 18:58:01</sys_updated_on>
+        <sys_updated_on>2023-03-29 19:25:39</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1213,7 +1213,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_input_scripts action="delete_multiple" query="instance=cab57f3a9d3521107f445bd8a0a5fd31"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_cab57f3a9d3521107f445bd8a0a5fd31^sys_idNOT IN2c1773ba9d3521107f445bd8a0a5fdf3,52b57f3a9d3521107f445bd8a0a5fd4b,5eb57f3a9d3521107f445bd8a0a5fd46,5eb57f3a9d3521107f445bd8a0a5fd52,dab57f3a9d3521107f445bd8a0a5fd56,deb57f3a9d3521107f445bd8a0a5fd4e"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_cab57f3a9d3521107f445bd8a0a5fd31^sys_idNOT IN2c1773ba9d3521107f445bd8a0a5fdf3,52b57f3a9d3521107f445bd8a0a5fd4b,5eb57f3a9d3521107f445bd8a0a5fd46,5eb57f3a9d3521107f445bd8a0a5fd52,a57df736643121107f44c8658dc061b1,dab57f3a9d3521107f445bd8a0a5fd56"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>city</element>
         <help/>
@@ -1307,6 +1307,29 @@
         <url_target/>
     </sys_documentation>
     <sys_documentation action="INSERT_OR_UPDATE">
+        <element>country</element>
+        <help/>
+        <hint/>
+        <label>country</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_cab57f3a9d3521107f445bd8a0a5fd31</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-29 19:25:56</sys_created_on>
+        <sys_id>a57df736643121107f44c8658dc061b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="IPInfo Spoke" source="x_snc_ipinfo_spoke">8acb2fbe9df121107f445bd8a0a5fd44</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IPInfo Spoke">8acb2fbe9df121107f445bd8a0a5fd44</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-29 19:25:56</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
         <element>longitude</element>
         <help/>
         <hint/>
@@ -1318,29 +1341,6 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-03-29 18:52:07</sys_created_on>
         <sys_id>dab57f3a9d3521107f445bd8a0a5fd56</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="IPInfo Spoke" source="x_snc_ipinfo_spoke">8acb2fbe9df121107f445bd8a0a5fd44</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="IPInfo Spoke">8acb2fbe9df121107f445bd8a0a5fd44</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-29 18:52:07</sys_updated_on>
-        <url/>
-        <url_target/>
-    </sys_documentation>
-    <sys_documentation action="INSERT_OR_UPDATE">
-        <element>country4</element>
-        <help/>
-        <hint/>
-        <label>country</label>
-        <language>en</language>
-        <name>var__m_sys_hub_step_ext_output_cab57f3a9d3521107f445bd8a0a5fd31</name>
-        <plural/>
-        <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-03-29 18:52:07</sys_created_on>
-        <sys_id>deb57f3a9d3521107f445bd8a0a5fd4e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="IPInfo Spoke" source="x_snc_ipinfo_spoke">8acb2fbe9df121107f445bd8a0a5fd44</sys_package>
